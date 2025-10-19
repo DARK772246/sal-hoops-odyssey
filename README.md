@@ -1,22 +1,22 @@
-# Welcome to your Lovable project
+Developer: Salman Khan
+Type: Interactive 3D Personal Portfolio
+Tech Stack: React · Three.js · GSAP · WebGL · TailwindCSS
 
-## Project info
+Description:
+The Path to Victory is an immersive 3D web experience that blends technology, basketball, and personal storytelling. Explore the digital court of Salman Khan, where every section represents a step in his journey — from mastering the game to earning recognition.
 
-**URL**: https://lovable.dev/projects/ea2a834c-5bdb-4d9b-a1c3-392289eb25c6
+Visitors can walk through dynamic 3D environments, view achievements, watch animations, and interact with scenes powered by real-time motion and cinematic effects.
 
-## How can I edit this code?
+Core Sections:
 
-There are several ways of editing your application.
+🏀 The Path to Victory — The beginning of the journey
 
-**Use Lovable**
+🎯 Master the Game — The mindset of champions
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ea2a834c-5bdb-4d9b-a1c3-392289eb25c6) and start prompting.
+🏆 Gallery of Recognition — Celebrating growth and legacy
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Vision:
+To fuse sportsmanship, technology, and art into a living digital world — showing that the true game is not just on the court, but within.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -60,11 +60,7 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/ea2a834c-5bdb-4d9b-a1c3-392289eb25c6) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
 
 Yes, you can!
 
