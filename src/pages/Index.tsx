@@ -2,10 +2,68 @@ import { Hero } from '@/components/Hero';
 import { Navigation } from '@/components/Navigation';
 import { TrophyRoom } from '@/components/TrophyRoom';
 import { SocialLinks } from '@/components/SocialLinks';
-import { PlaceholderSection } from '@/components/PlaceholderSection';
-import { Trophy, Flame, Award } from 'lucide-react';
+import { ContentSection } from '@/components/ContentSection';
 
 const Index = () => {
+  const path_to_victory_content = `Every sunrise begins the same — quiet, ordinary, unpromising.
+But champions know: greatness hides in repetition.
+It’s in the rhythm of the dribble echoing through an empty court,
+in the sweat that falls long before the crowd ever cheers.
+
+The path to victory isn’t paved with luck.
+It’s carved through failure, discipline, and unbreakable belief.
+Every missed shot becomes a lesson.
+Every defeat, a new beginning.
+Because true victory isn’t a scoreboard — it’s transformation.
+
+This is where passion meets purpose.
+Where pain meets progress.
+Where a player becomes more than a name — a legacy.
+
+The path to victory is not walked. It’s fought for. Every. Single. Day.
+— Salman Khan`;
+
+  const master_the_game_content = `The game isn’t just played on the court —
+it’s played in the mind.
+Every move begins with vision,
+every victory begins with control.
+
+To master the game is to master yourself.
+Patience in pressure.
+Focus in chaos.
+Confidence when the world doubts.
+
+The greats don’t chase perfection —
+they create it, one play at a time.
+Every dribble, every shot, every setback —
+a lesson written in motion.
+
+Because mastery isn’t about knowing every rule,
+it’s about rewriting them.
+
+Don’t just play the game.
+Own it. Live it. Master it.
+— Salman Khan`;
+
+  const gallery_of_recognition_content = `Every trophy tells a story.
+Not of glory alone — but of grind, grit, and growth.
+Behind every photo is a thousand invisible hours.
+Behind every cheer, a quiet struggle only the player remembers.
+
+This gallery isn’t built for fame.
+It’s built for truth — for moments that shaped the fire within.
+The shots that missed. The ones that mattered.
+The nights no one saw, when quitting whispered louder than dreams.
+
+Recognition isn’t a mirror for pride —
+it’s a reminder of purpose.
+Every frame, a chapter.
+Every memory, a milestone.
+
+This is more than a wall of achievements.
+It’s a map of who I became.
+— Salman Khan`;
+
   return (
     <main className="relative">
       <Navigation />
@@ -14,29 +72,26 @@ const Index = () => {
         <Hero />
       </div>
 
-      <PlaceholderSection
+      <ContentSection
         id="tournaments"
         title="THE PATH TO VICTORY"
-        subtitle="An interactive 3D timeline of tournament achievements"
-        icon={Trophy}
+        content={path_to_victory_content}
       />
 
-      <PlaceholderSection
+      <ContentSection
         id="skills"
         title="MASTER THE GAME"
-        subtitle="Explore my basketball skills in a virtual 3D court"
-        icon={Flame}
+        content={master_the_game_content}
       />
 
       <div id="trophies">
         <TrophyRoom />
       </div>
 
-      <PlaceholderSection
+      <ContentSection
         id="certificates"
         title="GALLERY OF RECOGNITION"
-        subtitle="Certificates and achievements displayed in 3D"
-        icon={Award}
+        content={gallery_of_recognition_content}
       />
 
       <SocialLinks />

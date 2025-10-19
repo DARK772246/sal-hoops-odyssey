@@ -1,10 +1,11 @@
 import { motion } from 'framer-motion';
-import { Instagram, Twitter, Linkedin, Mail } from 'lucide-react';
+import { Instagram, Share2, Film, MessageCircle, Mail } from 'lucide-react';
 
 const socialLinks = [
-  { name: 'Instagram', icon: Instagram, href: '#', color: '#E4405F' },
-  { name: 'Twitter', icon: Twitter, href: '#', color: '#1DA1F2' },
-  { name: 'LinkedIn', icon: Linkedin, href: '#', color: '#0A66C2' },
+  { name: 'Instagram', icon: Instagram, href: 'https://www.instagram.com/salman_orakxi/', color: '#E4405F' },
+  { name: 'TikTok', icon: Share2, href: 'https://www.tiktok.com/@hba013?is_from_webapp=1&sender_device=pc', color: '#000000' },
+  { name: 'CapCut', icon: Film, href: 'https://www.capcut.com/profile/PcMJTW0O7lYBMSNm6lVMfgnxIC89wumA2ig5THnmg24', color: '#00C4B3' },
+  { name: 'WhatsApp', icon: MessageCircle, href: 'tel:03275176283', color: '#25D366' },
   { name: 'Email', icon: Mail, href: 'mailto:salman@example.com', color: '#FF6B35' },
 ];
 
