@@ -22,11 +22,10 @@ export const MasteryGallery = () => {
 
           {/* Certificate Gallery */}
           {/* Replace the image paths with your actual certificate images. */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
             {[
-              { title: "Advanced Dribbling Certificate", img: "/certificates2/cert1.jpg" },
-              { title: "Shooting Accuracy Award", img: "/certificates2/cert2.jpg" },
-              { title: "Defensive Skills Trophy", img: "/certificates2/cert3.jpg" },
+              { title: "Advanced Dribbling Certificate", img: "/certificates2/certificates1.jpg" },
+              { title: "Shooting Accuracy Award", img: "/certificates2/certificates2.jpg" },
               // Add more certificates here
             ].map((certificate, index) => (
               <motion.div
