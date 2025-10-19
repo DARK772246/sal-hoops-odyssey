@@ -3,6 +3,7 @@ import { Navigation } from '@/components/Navigation';
 import { TrophyRoom } from '@/components/TrophyRoom';
 import { SocialLinks } from '@/components/SocialLinks';
 import { ContentSection } from '@/components/ContentSection';
+import { CertificateGallery } from '@/components/CertificateGallery';
 
 const Index = () => {
   const path_to_victory_content = `Every sunrise begins the same — quiet, ordinary, unpromising.
@@ -45,24 +46,7 @@ Don’t just play the game.
 Own it. Live it. Master it.
 — Salman Khan`;
 
-  const gallery_of_recognition_content = `Every trophy tells a story.
-Not of glory alone — but of grind, grit, and growth.
-Behind every photo is a thousand invisible hours.
-Behind every cheer, a quiet struggle only the player remembers.
 
-This gallery isn’t built for fame.
-It’s built for truth — for moments that shaped the fire within.
-The shots that missed. The ones that mattered.
-The nights no one saw, when quitting whispered louder than dreams.
-
-Recognition isn’t a mirror for pride —
-it’s a reminder of purpose.
-Every frame, a chapter.
-Every memory, a milestone.
-
-This is more than a wall of achievements.
-It’s a map of who I became.
-— Salman Khan`;
 
   return (
     <main className="relative">
@@ -88,11 +72,7 @@ It’s a map of who I became.
         <TrophyRoom />
       </div>
 
-      <ContentSection
-        id="certificates"
-        title="GALLERY OF RECOGNITION"
-        content={gallery_of_recognition_content}
-      />
+      <CertificateGallery />
 
       <SocialLinks />
     </main>
